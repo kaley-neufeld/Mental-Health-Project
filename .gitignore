@@ -1,0 +1,22 @@
+# Data
+data/
+*.csv
+*.json
+
+# Jupyter auto-saves
+.ipynb_checkpoints/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Environment files
+.env
+*.egg-info/
+
+# Outputs
+outputs/
