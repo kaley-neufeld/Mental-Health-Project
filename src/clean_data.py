@@ -104,6 +104,7 @@ class CleanData:
         
         # replace {old_name: new name}
         duplicates_dict = {
+            "Meditation Timer": "Meditation",
             "Laundry":"Start a load of laundry",
             "Walk around the neighborhood":"Mindfulness Walk",
             "Make a gratitude list before sleeping":"Gratitude Jar",
