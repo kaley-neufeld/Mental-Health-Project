@@ -70,6 +70,7 @@ class CleanData:
             
             if mood_type == 'feeling':
                 agg_df = type_df.groupby('Record_Date')['value'].mean()
+                # TODO: get median feeling here too
             else:
                 # TODO: these should only have 1 value a day, shouldn't do first!
                 agg_df = type_df.groupby('Record_Date')['value'].first() 
