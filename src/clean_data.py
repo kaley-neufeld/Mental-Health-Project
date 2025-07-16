@@ -107,7 +107,7 @@ class CleanData:
         duplicates_dict = {
             "Meditation Timer": "Meditation",
             "Laundry":"Start a load of laundry",
-            "Walk around the neighborhood":"Mindfulness Walk",
+            #"Walk around the neighborhood":"Mindfulness Walk", # only applies to 1 record 
             "Make a gratitude list before sleeping":"Gratitude Jar",
             "Reflect on how friends makes me feel gratitude lately":"Gratitude Jar",
             "Express gratitude to a friend I'm thankful for":"Gratitude Jar"
